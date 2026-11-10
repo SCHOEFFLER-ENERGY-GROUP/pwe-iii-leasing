@@ -1,6 +1,6 @@
 // ---------- reference: survey plats ----------
 // Called acreage per unit from the Bowman survey plats. Tracts not on a unit's plat are left out of its unit acres.
-const PLATCALL={'CANNON GU':719.57,'DAVIS GU':658.357,'FENTON GU':670.647,'HUNT GU':686.91,'JENNIFER STEWART GU':712.503,'LOFTIS GU':640.00,'RESCH GU':641.94,'SUMMERS GU':772.598,'ZIMM GU':146.193};
+const PLATCALL={'CANNON GU':719.57,'DAVIS GU':658.357,'FENTON GU':670.647,'HUNT GU':686.91,'JENNIFER STEWART GU':712.503,'LOFTIS GU':640.00,'PERDUE GU':696.848,'RESCH GU':641.94,'SUMMERS GU':772.598,'ZIMM GU':146.193};
 const OFFPLAT=new Set(['TX203-0075-011']);
 // Lease documents shown by the View lease buttons: `url` = FileCloud public share (opens in a new tab); `src` = a PDF in pwe-iii/leases/ for the built-in viewer. Recorded lease pages only.
 // Check requests, W-9s, purchase notices and title papers are removed and SSNs blacked out before a file is added here.
@@ -42,6 +42,7 @@ const PLATDOCS={
   'LOFTIS GU':{src:'plats/loftis_gu_plat.png',short:'Prelim 2/13/26',title:'Loftis Unit · Survey plat',sub:'Bowman · Job 381897 · Preliminary 2/13/2026 · Rev 0 · called 640.00 acres'},
   'RESCH GU':{src:'plats/resch_deep_unit_plat.png',short:'Prelim 6/4/26',title:'Resch Deep Unit · Survey plat',sub:'Bowman · Job 381962 · Preliminary 6/4/2026 · Rev 0 · called 641.940 acres'},
   'ZIMM GU':{src:'plats/zimm_gu_plat.png',short:'2/11/26',title:'Zimm Unit · Survey plat',sub:'Bowman · Job 381489 · dated 2/11/2026 · 1" = 500\' · called 146.193 acres'},
+  'PERDUE GU':{src:'plats/perdue_deep_unit_plat.png',short:'Prelim 10/1/26',title:'Perdue Deep Unit · Survey plat',sub:'Bowman · Job 382208 · Preliminary 10/1/2026 · Rev 0 · called 696.848 acres'},
   'SUMMERS GU':{src:'plats/summers_deep_unit_plat.png',short:'Prelim 10/6/26',title:'Summers Deep Unit · Survey plat',sub:'Bowman · Job 382091 · Preliminary 10/6/2026 · Rev 0 · called 772.578 acres (correction to 772.598 pending)'}};
 const PLATNOTE={};
 // project notes shown under Notes on the Overview

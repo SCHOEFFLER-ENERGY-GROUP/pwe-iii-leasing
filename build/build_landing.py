@@ -10,8 +10,8 @@ from html import escape
 
 OUT = 'OUTSIDE'
 PROJECTS = [
-    dict(key='pwe-iii', code='PWE III', region='Harrison County, Texas', updated='Oct 14, 2026',
-         data='pwe_1014.json', geo='geo_1015.json', plats='v3/_plats_pwe3.js', group='units', group1='unit',
+    dict(key='pwe-iii', code='PWE III', region='Harrison County, Texas', updated='Nov 10, 2026',
+         data='pwe_1110.json', geo='geo_1015.json', plats='v3/_plats_pwe3.js', group='units', group1='unit',
          acres_label='Unit acres (plats)'),
     dict(key='pwe-iv', code='PWE IV', region='Natchitoches & Red River Parishes, Louisiana', updated='Oct 15, 2026',
          data='pwe4_1015.json', geo='geo4_1015.json', plats='v3/_plats_pwe4.js', group='townships', group1='township',
