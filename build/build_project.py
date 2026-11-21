@@ -9,9 +9,9 @@ import base64, re, sys
 PROJECTS = {
     'pwe3': dict(
         CODE='PWE III', REGION='Harrison County, Texas',
-        DATE_S='Nov 10, 2026', DATE_L='November 10, 2026',
+        DATE_S='Nov 20, 2026', DATE_L='November 20, 2026',
         ACRESRC='unit acres = Bowman survey plats',
-        plats='v3/_plats_pwe3.js', data='pwe_1110.json', geo='geoll3.json', str=None, rec='rec3_1110.json',
+        plats='v3/_plats_pwe3.js', data='pwe_1120.json', geo='geoll3_1120.json', str=None, rec='rec3_1120.json',
         words=[]),
     'pwe4': dict(
         CODE='PWE IV', REGION='Natchitoches &amp; Red River Parishes, Louisiana',
